@@ -2,12 +2,13 @@
   display: flex;
   align-items: center;
   font-family: Rajdhani;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--title);
 }
 
-.countDownContainer{
+.countDownContainer > div {
   display: flex;
+  flex:1;
   align-items: center;
   justify-content: space-evenly;
 
